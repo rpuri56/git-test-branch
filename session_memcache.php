@@ -1,4 +1,7 @@
 <?php
+/****
+test stest tetetetetetetet etetedddddddddddddddddddddddddddddddddddd
+****/
 ob_start();
 echo 'save path -> ' . ini_get('session.save_path');
 echo '<br/>save handler -> ' . ini_get('session.save_handler');
@@ -9,4 +12,5 @@ $_SESSION['first_name'] = 'Ranjeet';
 
 print_r($_SESSION);
 ob_flush();
+
 ?>
